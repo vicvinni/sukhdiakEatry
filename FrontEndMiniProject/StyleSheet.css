@@ -1,0 +1,48 @@
+﻿body {
+    background-color:silver
+}
+hr {
+    border-top: 5px solid #fffff;
+    border-radius: 5px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+}
+h2 , h3{
+    text-align: center;
+    text-decoration:underline;
+
+}
+#main_Title{ 
+    text-align: center; 
+     font-family:Vivaldi;
+     font-size:100px
+}
+.Container {
+    background-image: url(Images/coloredpolygon.jpg);
+    text-align:center;
+}
+.AboutMe{ 
+    text-align: center; 
+    border: 5px solid #95709b; 
+    font-size: 20px;
+}
+.Coding_languages {
+
+    text-align: center;
+    border: 5px solid #95709b;
+    font-size: 20px;
+}
+.Contact {
+    text-align: center;
+    border: 5px solid #95709b;
+    font-size: 20px;
+}
+#link {
+
+    align-items: center;
+    font-size: 20px;
+    align-self:center;
+}
+
