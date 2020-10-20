@@ -1,4 +1,4 @@
-# this is the CV/Resume Page for Vinni Victor
+# This is the CV/Resume Page for Vinni Victor
 **Click on the link below to view**
 [Vinni Victor](http://vicvinni.github.io)
 
