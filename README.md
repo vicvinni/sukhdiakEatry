@@ -1,6 +1,5 @@
-# This is the CV/Resume Page for Vinni Victor
-**Click on the link below to view**
-[Vinni Victor](http://vicvinni.github.io)
+# This is the [CV/Resume](http://vicvinni.github.io) Page for Vinni Victor
+
 
 ## created in HTML, CSS and JAVASCRIPT 
 
