@@ -1,34 +1,37 @@
 body {
     background-color: silver;
 }
+
 hr {
     border-top: 5px solid grey;
     border-radius: 5px;
 }
+
 p {
     text-align: center;
     font-size: 20px;
 }
-h2 , h3, h5, h4{
-    text-align: center;
-    text-decoration:underline;
 
+h2, h3, h5, h4 {
+    text-align: center;
+    text-decoration: underline;
 }
-#main_Title{ 
-    text-align: center; 
-     font-family:Vivaldi;
-     font-size:115px;
-     top:90px;
+
+#main_Title {
+    text-align: center;
+    font-family: Vivaldi;
+    font-size: 115px;
+    top: 90px;
 }
+
 .MainContainer {
     background-image: url(Images/coloredpolygon.jpg);
     text-align: center;
-    background-position:100% center;
+    background-position: 100% center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0px 200px 0px;
-    height: 50vh;
-
+    height: 40vh;
 }
 
 #navbar {
@@ -52,13 +55,14 @@ h2 , h3, h5, h4{
             background-color: #ddd;
             color: black;
         }
-       
+
 
 .Container {
     background-image: url(Images/coloredpolygon.jpg);
     text-align: center;
 }
-.AboutMe, .Coding_languages, .Contact, .WorkEx, .Game {
+
+.AboutMe, .Coding_languages, .Contact, .WorkEx, .Game{
     text-align: center;
     border: 5px solid #95709b;
     font-size: 20px;
@@ -66,21 +70,41 @@ h2 , h3, h5, h4{
     margin: 10px 10px 2px 4px;
     list-style-position: inside;
 }
-.Skills, .characteristics, .WorkExperience, .Volunteering, .Interests_and_hobbies {
+
+.Skills, .characteristics, .Volunteering, .Interests_and_hobbies {
     text-align: center;
     font-size: 18px;
     list-style-position: inside;
 }
 
-#link {
+.WorkExperience, .Volunteering {
+    text-align: center;
+    border: 5px solid #95709b;
+    font-size: 20px;
+    padding-bottom: 2em;
+    margin: 10px 10px 2px 4px;
+    list-style-position: inside;
+    overflow: auto; 
+}
 
+.SkillsFromWrkEx, .Responsibilities {
+    text-align: center;
+    border: 2px solid #95709b;
+    font-size: 20px;
+    width: 600px;
+    margin: 10px 10px 2px 4px;
+    float: left; 
+}
+
+#link {
     align-items: center;
     font-size: 20px;
-    align-self:center;
+    align-self: center;
 }
+
 #Videos {
-    width:650px;
-    height:650px;
+    width: 650px;
+    height: 650px;
     border-style: outset;
     float: none;
     border-width: 7px;
@@ -88,6 +112,7 @@ h2 , h3, h5, h4{
     padding: 6px 3px;
     margin: 40px;
 }
+
 #githubLink {
     text-align: center;
     font-size: 20px;
@@ -95,30 +120,32 @@ h2 , h3, h5, h4{
     border-width: 7px;
     border-color: slategray;
     padding: 6px 3px;
-    margin: 40px ;
-}
-.button {
-  border: none;
-  color: silver;
-  padding: 6px 3px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 2px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.button2 {
- 
-  color: black; 
-  border: 2px solid #95709b;
+    margin: 40px;
 }
 
-.button2:hover {
-  background-color: #95709b;
-  color: white;
+.button {
+    border: none;
+    color: silver;
+    padding: 6px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+.button2 {
+    color: black;
+    border: 2px solid #95709b;
+}
+
+    .button2:hover {
+        background-color: #95709b;
+        color: white;
+    }
+
 .GameSection {
     text-align: center;
     border: 5px solid #95709b;
@@ -126,8 +153,8 @@ h2 , h3, h5, h4{
     padding-bottom: 2em;
     margin: 10px 10px 2px 4px;
     height: 300px;
-    
 }
+
 canvas {
     border: 3px solid #d3d3d3;
     background-color: #f1f1f1;
@@ -136,13 +163,11 @@ canvas {
     overflow: auto;
     margin: 0;
 }
+
 #Game {
     align-items: center;
     text-align: center;
     font-size: 20px;
-
     padding: 3px 3px;
     margin: 30px;
 }
-
-
